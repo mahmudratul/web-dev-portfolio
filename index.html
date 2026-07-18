@@ -1,0 +1,247 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Web dev portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&family=GFS+Didot&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="styles/portfolio.css" />
+</head>
+
+<body class="open-sans-normal">
+  <!-- Top Navigation Header -->
+  <header class="header secondary-bg">
+    <nav>
+      <h3 class="nav-title">Ma<span class="primary">r</span>y</h3>
+      <ul>
+        <li><a class="dark-2" href="">Portfolio</a></li>
+        <li><a class="dark-2" href="">Blogs</a></li>
+        <li>
+          <a class="dark-2" href=""><button class="btn-primary">Hire Me</button></a>
+        </li>
+      </ul>
+    </nav>
+    
+    <!-- Hero Banner Section -->
+    <div class="banner">
+      <div class="banner-content">
+        <h4 class="banner-greetings dark-2">Hi, I am</h4>
+        <h1 class="banner-title">marry hardy</h1>
+        <p class="banner-description">
+          shot what able cloud new see hold. friendly as an betryaed formerly
+          he. Morning bbecasue as to scoicty behaveed
+        </p>
+        <button class="btn-primary">Download CV</button>
+        <button class="btn-primary">Contact</button>
+      </div>
+      <img class="ban-img" src="images/hardy.png" alt="Mary Hardy Profile Picture" />
+    </div>
+  </header>
+
+  <main>
+    <!-- About Me Section -->
+    <section class="about secondary-bg">
+      <h3 class="section-title">About Me</h3>
+      <p class="section-description">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        Necessitatibus architecto voluptatibus deleniti perferendis adipisci
+        nulla eligendi animi eos expedita! Doloribus asperiores consectetur
+        quia laborum eius tempore recusandae reprehenderit sequi! Nisi?
+      </p>
+      <div class="about-items">
+        <!-- .about-item*4>p.item-title+p.item-description  -->
+        <div class="about-item">
+          <p class="item-title">Name</p>
+          <p class="item-description">Hardy Mary</p>
+        </div>
+        <div class="about-item">
+          <p class="item-title">Email</p>
+          <p class="item-description">acbd@gmail.com</p>
+        </div>
+        <div class="about-item">
+          <p class="item-title">Date of Birth</p>
+          <p class="item-description">Dec 16, 2000</p>
+        </div>
+        <div class="about-item">
+          <!-- Fixed title layout label typo 'form' to 'From' -->
+          <p class="item-title">From</p>
+          <p class="item-description">Dhaka, Bangladesh</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- what i do section start -->
+    <!-- section.skills  -->
+    <section class="skills">
+      <h3 class="section-title text-center">What I do</h3>
+      <p class="section-description text-center">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel, fugiat
+        aperiam velit tempora ullam odit culpa earum nemo placeat perspiciatis
+        dolore atque. Quae repellendus fugit neque perspiciatis voluptatum,
+        iure et repudiandae porro. Voluptatem voluptate autem, illum expedita
+        doloremque quasi et.
+      </p>
+      
+      <!-- Core Skills Grid/Flex Cards -->
+      <div class="skill-container">
+        <!-- .skill*4>img+h4.skill-title+p.skill-description  -->
+        <div class="skill">
+          <img src="/web-dev-portfolio/images/icons/mongo.png" alt="MANGO" />
+          <h4 class="skill-title">MANGO</h4>
+          <p class="skill-description">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+            Reiciendis doloremque illum adipisci reprehenderit voluptatem,
+            voluptates expedita deleniti nulla! Corrupti, praesentium magnam.
+            Vel, possimus perspiciatis. Ex tempore porro qui impedit
+            asperiores.
+          </p>
+        </div>
+        <div class="skill">
+          <img src="../web-dev-portfolio/images/icons/js.png" alt="javascript" />
+          <h4 class="skill-title">JavaScript</h4>
+          <p class="skill-description">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+            Molestiae quisquam recusandae rem, rerum ratione repellat
+            similique ea, fugiat minima, officiis cumque laborum commodi magni
+            ipsam possimus debitis doloremque iure error?
+          </p>
+        </div>
+        <div class="skill">
+          <img src="/web-dev-portfolio/images/icons/nodejs.png" alt="nodeJS" />
+          <h4 class="skill-title">NodeJs</h4>
+          <p class="skill-description">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore
+            quia nisi repellat soluta, repellendus veritatis mollitia quo quis
+            obcaecati id rem quibusdam voluptatum, voluptate cumque nihil
+            accusantium. Recusandae, quia doloremque?
+          </p>
+        </div>
+        <div class="skill">
+          <img src="/web-dev-portfolio/images/icons/react.png" alt="React" />
+          <h4 class="skill-title">React</h4>
+          <p class="skill-description">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni
+            architecto provident illum voluptatem quaerat, laborum libero odit
+            facilis cupiditate ab natus perferendis, et maxime saepe ex? Autem
+            ipsam mollitia placeat.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Resume Section with Multi-Column Setup -->
+    <section class="resume">
+      <h3 class="summary-title text-center">A summary of my resume</h3>
+      <div class="resume-container">
+        <!-- .resume-column*2>h3.resume-column-title+.experience*3>h4.experience-title+h5.experience-sub-title+.experience-descriiption -->
+        
+        <!-- Left Column: Education -->
+        <div class="resume-column">
+          <h3 class="resume-column-title">My Education</h3>
+          <div class="experience">
+            <h4 class="experience-title">Master in Computer Engineering</h4>
+            <h5 class="experience-sub-title">Harvard University 2016-2017</h5>
+            <div class="experience-description">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex
+              aperiam soluta magnam modi in, recusandae dolor deleniti
+              debitis! Excepturi, laudantium?
+            </div>
+          </div>
+          <hr />
+          <div class="experience">
+            <h4 class="experience-title">Master in Computer Engineering</h4>
+            <h5 class="experience-sub-title">Harvard University 2015-2016</h5>
+            <div class="experience-description">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Doloremque exercitationem quidem modi dolorum vel esse eos
+              commodi sapiente repellat odio.
+            </div>
+          </div>
+          <hr />
+          <div class="experience">
+            <h4 class="experience-title">Master in Computer Engineering</h4>
+            <h5 class="experience-sub-title">Harvard Univeristy 2016-2017</h5>
+            <div class="experience-description">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste ab
+              doloremque doloribus quia? Aspernatur dicta odit natus nulla
+              illum expedita!
+            </div>
+          </div>
+        </div>
+
+        <!-- Right Column: Professional Experience -->
+        <div class="resume-column">
+          <h3 class="resume-column-title">My Experience</h3>
+          <div class="experience">
+            <h4 class="experience-title">Sr. Front End Developer</h4>
+            <h5 class="experience-sub-title">Apple inc / 2020-Present</h5>
+            <div class="experience-description">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Delectus officiis, dolorem, qui consequuntur atque quos
+              voluptates harum assumenda omnis ipsa debitis hic odit
+              provident!
+            </div>
+          </div>
+          <hr />
+          <div class="experience">
+            <h4 class="experience-title">Jr. Front End Developer</h4>
+            <h5 class="experience-sub-title">Dribble Inc / 2018-2022</h5>
+            <div class="experience-description">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Delectus officiis, dolorem, qui consequuntur atque quos
+              voluptates harum assumenda omnis ipsa debitis hic odit
+              provident!
+            </div>
+          </div> <!-- Fixed missing closing div layout rule here -->
+          <hr />
+          <div class="experience">
+            <h4 class="experience-title">HTML Developer</h4>
+            <h5 class="experience-sub-title">Adobe Inc / 2017-2018</h5>
+            <div class="experience-description">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Delectus officiis, dolorem, qui consequuntur atque quos
+              voluptates harum assumenda omnis ipsa debitis hic odit
+              provident!
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <!-- CTA Action Button Layout -->
+      <div class="text-center resume-download-cv">
+        <button class="btn-primary">Download CV</button>
+      </div>
+    </section>
+  </main>
+
+  <!-- Split Contact & Social Footer Component -->
+  <footer class="secondary-bg">
+    <div class="footer-column">
+      <h3 class="section-title">Let's Connect</h3>
+      <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Enim commodi eos sint ipsum sapiente necessitatibus
+        reprehenderit ea, quo eaque harum?</p>
+      <div class="social-links">
+        <a href="https://www.facebook.com" target="_blank"><img src="/web-dev-portfolio/images/icons/facebook.png" alt="Facebook"></a>
+        <a href="https://www.instagram.com" target="_blank"><img src="/web-dev-portfolio/images/icons/insta.png" alt="Instagram"></a>
+        <a href="https://www.x.com" target="_blank"><img src="/web-dev-portfolio/images/icons/twitter.png" alt="X/Twitter"></a>
+      </div>
+    </div>
+    
+    <div class="footer-column">
+      <h3 class="section-title">Let's Message Me</h3>
+      <form action="">
+        <input type="text" name="name" placeholder="Your name" required>
+        <input type="email" name="email" placeholder="Your Email" required>
+        <textarea name="message" cols="30" rows="10" placeholder="Message" required></textarea>
+        <input class="btn-primary" type="submit" value="Submit">
+      </form>
+    </div>
+  </footer>
+</body>
+
+</html>
